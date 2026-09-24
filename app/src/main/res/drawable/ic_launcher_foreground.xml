@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Golden Sun with soft rays -->
+    <path
+        android:pathData="M54,34 L54,27 M54,74 L54,81 M34,54 L27,54 M74,54 L81,54 M40,40 L35,35 M68,68 L73,73 M40,68 L35,73 M68,40 L73,35"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFC107" />
+
+    <!-- Sun Disc Gradient -->
+    <path
+        android:pathData="M54,54m-14,0a14,14 0 1,1 28,0a14,14 0 1,1 -28,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="40"
+                android:endX="68"
+                android:endY="68"
+                android:type="linear">
+                <item android:color="#FFF176" android:offset="0.0" />
+                <item android:color="#FFA000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Crescent Moon Overlay -->
+    <path
+        android:pathData="M64,36 C57,37 50,43 50,52 C50,61 57,68 66,69 C68,69 70,68.7 72,68 C68,73 60,75 53,73 C43,69 38,58 42,48 C45,40 54,35 64,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="36"
+                android:endX="70"
+                android:endY="72"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0.0" />
+                <item android:color="#FFE082" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sacred Bindu / Lotus Dot at Center -->
+    <path
+        android:pathData="M54,51 C52.5,51 51,52.5 51,54 C51,55.5 52.5,57 54,57 C55.5,57 57,55.5 57,54 C57,52.5 55.5,51 54,51 Z"
+        android:fillColor="#FF6F00" />
+</vector>

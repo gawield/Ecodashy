@@ -1,0 +1,6 @@
+{
+  "name": "Ekadashi & Parana",
+  "description": "Offline astronomical calculation of Ekadashi fasting days, Tithi and Parana breaking window based on Jean Meeus algorithms and Vaishnava rules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
